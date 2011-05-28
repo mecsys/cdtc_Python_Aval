@@ -1,0 +1,37 @@
+
+Você foi chamado para projetar uma parte do algoritmo do caixa eletrônico de 
+um banco. Você ficou responsável pela parte do saque, ou seja, quando um 
+usuário solicitar o montante que deseja sacar, o seu algoritmo será 
+responsável por separar as notas corretamente para que ele receba o dinheiro
+ que foi pedido.
+
+Especificação do programa:
+
+Crie uma função que receba como parâmetro um número inteiro representando o
+valor solicitado para saque num caixa eletrônico, e em seguida, sabendo que
+o caixa está alimentado com notas de 1, 5, 10, 50 e 100 reais, calcule e 
+escreva quantas notas de cada valor serão necessárias para atender a 
+solicitação de saque.
+
+Observações:
+
+    1. O nome da função deve ter a seguinte assinatura: calculaNotas(valor)
+    2. As notas devem ser distribuídas da maneira mais eficiente possível. 
+       Ou seja, se o usuário solicitou 100 reais, teremos que dar uma nota de 
+       100, ao invés de 2 notas de 50 reais ou até mesmo 100 notas de 1 real.
+    3. O nome do arquivo enviado deve seguir o seguinte padrão: ULTIMONOME_PRIMEIRONOME.py
+    4. Após enviar uma vez, você pode enviar novamente o arquivo, desde que esteja dentro do prazo.
+
+Exemplo de uso:
+
+>>> calculaNotas(187)
+1 nota(s) de 100 reais
+1 nota(s) de 50 reais
+3 nota(s) de 10 reais
+1 nota(s) de 5 reais
+2 nota(s) de 1 reais
+
+Método de correção
+
+    1. Os arquivos serão corrigidos individualmente pelos monitores.
+    2. A nota será dada baseado na especificação, sendo que se o programa não estiver ao menos rodando, receberá nota 0.
