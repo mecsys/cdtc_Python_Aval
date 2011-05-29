@@ -31,30 +31,23 @@ def calculaNotas(valor):
 		spam = int(valor / 100)
 		imprimeValores(spam, 100)
 		valor = valor - (spam * 100)
-		print("Saindo de 100")
-		print("Valor: %d" % valor)
 
 	if (int(valor / 50) > 0):
 		spam = int(valor / 50)
 		imprimeValores(spam, 50)
 		valor = valor - (spam * 50)
-		print("Saindo de 50")
 	
 	if (int(valor / 10) > 0):
 		spam = int(valor / 10)
 		imprimeValores(spam, 10)
 		valor = valor - (spam * 10)
-		print("Saindo de 10")
 
 	if (int(valor / 5) > 0):
 		spam = int(valor / 5)
 		imprimeValores(spam, 5)
 		valor = valor - (spam * 5)
-		print("Saindo de 5")
 
 	if (int(valor / 1) > 0):
 		spam = int(valor / 1)
 		imprimeValores(spam, 1)
 		valor = valor - (spam * 1)
-		print("Saindo de 1")
-
